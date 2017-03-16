@@ -1,0 +1,62 @@
+body, div,span,a,input,select,img, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form,input, p, th, td ,table{margin:0; padding:0; list-style: none;}
+table { border-collapse:collapse;}
+
+img{display: block; border:0;}
+a{text-decoration:none; color:#000; font-size: 12px;}
+
+a:hover{color:;}
+body{font-size: ; font-family: ; color:;}
+input,img{vertical-align: middle;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix::after{
+	content:"";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+	zoom: 1;
+}
+.header{
+	height: 300px;
+	/*width: 1346px;*/
+	background: url(../img/fcb3879e14429d75833a461572e64.jpg) no-repeat;
+	background-size: cover;
+	background-position: center 20%; 
+	position: relative;
+}
+.header1 img{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+.hh .navbar-nav{
+	float: none;
+	display: inline-block;
+}
+.hh{
+	text-align: center;
+}
+
+.hang{
+	width: 902px;
+	height: 407px;
+	background: yellow;
+	margin-left: 400px;
+}
+.post-head h1{
+	text-align: center;
+	padding-left: 5px;
+	font-size: 25px;
+}
+.post-meta{
+	margin-bottom: 20px;
+}
+.author{
+	margin-left: 300px;
+}
+.post-permalink a{
+	margin-top: 30px;
+}
